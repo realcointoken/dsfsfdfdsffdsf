@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  .cards {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  img {
+    width: 400px;
+  }
+  &-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    a {
+      background: #fff;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0.5rem;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    a:nth-child(2) {
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  }
+  .footer-discord {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    span{
+        color: $green;
+        font-size: 20px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+    }
+  }
+  h3 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer{
+    img{
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+.header {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/gradient\ background\ home.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+  .cards {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 75px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      transform: rotate(180deg);
+      font-family: "orbitron";
+      font-size: 10px;
+    }
+    img {
+      width: 15px;
+      height: 15px;
+      opacity: 0.9;
+    }
+  }
+  &-img {
+    position: relative;
+    width: 435px;
+    height: 435px;
+    border: 0.8rem solid hsla(0, 0%, 100%, 0.1);
+    border-radius: 50px;
+    overflow: hidden;
+    button {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      border: none;
+      background: $green;
+    }
+    img {
+      width: 435px;
+      height: 435px;
+      object-fit: cover;
+    }
+  }
+  &-container {
+    width: 625px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      font-size: 23px;
+      font-family: "orbitron";
+      text-align: left;
+      margin: 0.5rem 0;
+    }
+    h1 {
+      font-size: 4.5rem;
+      text-align: left;
+      span {
+        color: $green-lighter;
+      }
+    }
+    a {
+      width: 192px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      color: $green;
+      font-size: 27px;
+      margin-top: 1rem;
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .header {
+    margin-top: 100px;
+    .cards {
+      flex-direction: column;
+    }
+    &-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h1 {
+        width: 350px;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      h2 {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      a {
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color: $green;
+        font-size: 18px;
+        margin: 1rem 0;
+        img {
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+        }
+      }
+    }
+    &-img {
+      width: 272px;
+      height: 304px;
+      img {
+        width: 272px;
+        height: 304px;
+      }
+    }
+    .scroll {
+      position: static;
+      margin: 2rem 0;
+    }
+  }
+}

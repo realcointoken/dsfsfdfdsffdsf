@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 423.3 421.4" style="enable-background:new 0 0 423.3 421.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:url(#WhatsApp_Image_2022-01-02_at_17.22.01_1_);}
+</style>
+<pattern  x="-268.7" y="-196.6" width="2000" height="1944.5" patternUnits="userSpaceOnUse" id="pattern" viewBox="0 -1972.2 2000 1944.5" style="overflow:visible;">
+	<g>
+		<rect y="-1972.2" class="st0" width="2000" height="1944.5"/>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="2000" height="2000" xlink:href="36AD6F006367B8CA.jpg"  transform="matrix(1 0 0 -1 0 0)">
+		</image>
+	</g>
+</pattern>
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="409.2,406.3 409.2,60.3 369.1,20.3 12.2,20.3 12.2,361.9 56.6,406.3 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Groupe_de_masques_4" transform="translate(-968 -1225.268)" class="st1">
+		
+			<pattern  id="WhatsApp_Image_2022-01-02_at_17.22.01_1_" xlink:href="#pattern" patternTransform="matrix(0.2086 0 0 -0.2086 -5609.4199 -10133.4199)">
+		</pattern>
+		<rect id="WhatsApp_Image_2022-01-02_at_17.22.01" x="976.3" y="1230.9" class="st2" width="405.7" height="417.2"/>
+	</g>
+	<polygon class="st1" points="12.2,361.9 56.6,406.3 409.2,406.3 409.2,60.3 369.1,20.3 12.2,20.3 	"/>
+</g>
+</svg>

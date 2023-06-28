@@ -1,0 +1,66 @@
+.roadmap {
+  background-image: linear-gradient(#000, $blue, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+  .cards {
+    width: 85%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //overflow: hidden;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    span {
+      color: $green-lighter;
+    }
+  }
+  .splide1 {
+    width: 50%;
+  }
+  &-box {
+    margin: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    background-image: linear-gradient($green-light, $green, $green-light);
+    p {
+      font-size: 15px;
+      font-family: "poppinsregular";
+      span {
+        font-family: "poppinsbold";
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .roadmap {
+    .splide1 {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .roadmap {
+    h1 {
+      font-size: 2.5rem !important;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .roadmap {
+    .cards {
+      width: 95%;
+    }
+  }
+}
